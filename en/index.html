@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ken - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- icon link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
+            <a class="navbar-brand" href="#">Ken's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#" onclick="changeLanguage('en')">English</a>
+                            <a class="dropdown-item" href="#" onclick="changeLanguage('jp')">日本語</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-body">
+            <img src="IMG_9948.png" alt="顔イラスト" class="img-fluid custom-image">
+            <h1>Hello, I'm Ken</h1>
+            <div class="sentence">
+                <h5>
+                    I'm a college student and interested in Back-end developments.
+                </h5>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="header2">
+        <h2>About Me</h2>
+        <div class="sentence">
+            <p>Hello, my name is Ken, and I am a junior majoring in Computer Science.</p>
+        </div>
+    </section>
+    <section id="education" class="header2">
+        <h2>Education</h2>
+        <div>
+            <p>Univercity of Aizu, Computer Science and Engineering | Aizu, Fukushima</p>
+        </div>
+        <div class="course">
+            <ul class="row list-unstyled">
+                <li class="col-sm-3 font-weight-bold">Core courses</li>
+                <p class="col-sm-9">Algorithm and Data structure, programming JAVA, Software Engineering, Integrated
+                    Exercise for
+                    Software, Computer Architecture</p>
+                <li class="col-sm-3 font-weight-bold">Project</li>
+                <p class="col-sm-9">Small-scale algorithmic design on the subject of supermarkets.</p>
+            </ul>
+        </div>
+    </section>
+    <section id="skill" class="header2">
+        <h2>Skills</h2>
+        <div class="sentence">
+            <h4>Intermediate</h4>
+            <p class="intermediate">
+                Java, Git, AWS, SQL
+            <h4>Familiar</h4>
+            <p class="familiar">C-lang, HTML/CSS, Spring Boot, Bootstrap, terraform</p>
+        </div>
+    </section>
+    <section id="experience" class="header2">
+        <h2>Experience</h2>
+        <div class="sentence">
+            <h5>Hackathon</h5>
+            <p>During the hackathon, I worked with the team
+                to develop a product that extracts daily
+                student data from class mailing lists and
+                outputs a ranking of course cancelation
+                rates. I was also in charge of creating a
+                function to rank class satisfaction based on
+                surveys. I was also responsible for colecting
+                and processing the data, and I am proud of
+                the effective teamwork that led to the
+                success of the project.</p>
+        </div>
+        <div class="sentence">
+            <h5>Algorithm design exercise</h5>
+            <p>In my school exercise class, I am working on
+                the development of an algorithmic product
+                based on the subject of supermarkets. In this
+                project, we wil use supermarket sales data
+                and customer flow lines to efficiently place
+                products and maximize sales. In this project, I
+                wil work with team members to solve
+                problems and ensure the success of the
+                project.</p>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://github.com/ken-sevenseas" class="github-icon">
+                    <img src="github.svg" alt="GitHub" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="mailto:yakinikuoishii24@gmail.com" class="email-icon">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2023 ken-sevenseas</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
